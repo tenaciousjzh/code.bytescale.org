@@ -14,7 +14,7 @@
   (quack [x] println "Quack"))
 
 (def mallard (MallardDuck.))
-(println "Mallard says: " (quack mallard) (fly mallard))
+(println "Mallard says: \n" (quack mallard) "\n" (fly mallard))
 
 ;Option 2 - pick which parts of the protocol to implement
 (deftype ModelDuck [])
@@ -26,5 +26,5 @@
   (quack [x] println "Quack"))
 
 (def model (ModelDuck.))
-(println "Model Duck says: " (quack model) (fly model))
+(println "Model Duck says: \n" (quack model) "\n" (fly model))
 
