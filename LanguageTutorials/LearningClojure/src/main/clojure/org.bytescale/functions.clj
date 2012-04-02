@@ -1,4 +1,4 @@
-(ns edu.jared.functions)
+(ns org.bytescale.functions)
 
 (defn basic-item-total [price quantity]
   (* price quantity))

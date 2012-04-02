@@ -1,4 +1,4 @@
-(ns org.bytescal.patterns.strategy.mini-duck-simulator)
+(ns org.bytescale.patterns.strategy.mini-duck-simulator)
 
 (defprotocol FlyBehavior
   (fly [x]))
