@@ -26,3 +26,8 @@ LanguageTutorials/DesignPatterns/.idea/uiDesigner.xml
 LanguageTutorials/DesignPatterns/.idea/vcs.xml
 
 LanguageTutorials/DesignPatterns/.idea/workspace.xml
+
+# Visual Studio related files
+obj/
+bin/
+*.suo
